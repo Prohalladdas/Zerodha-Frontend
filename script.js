@@ -8,8 +8,8 @@ window.onload = function  (){
     })
 
     const menu_btn = document.querySelector('.humbergar');
-    const mobile_menu = document.querySelector('.mobile-nav');
-    const mobile_cont = document.querySelector('#mob-cont');
+    const mobile_menu = document.querySelector('.hamburger-click-container');
+    const mobile_cont = document.querySelector('#click-cont');
 
     menu_btn.addEventListener('click',function(){ // iss-active wohi per  hi hoga jahaper click event hoga matlab hamburger and content ki container
         menu_btn.classList.toggle('iss-active');
