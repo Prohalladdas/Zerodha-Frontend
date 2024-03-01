@@ -28,7 +28,8 @@ body {
     height: 67px;
     display: flex;
     align-items: center;
-    padding: 0px 0px 0px 85px;
+    padding: 0px 0px 0px 18px;
+    margin: 0px 159px 0px 0px;
     /* border: 1px solid red; */
 }
 
@@ -41,12 +42,13 @@ body {
     display: flex;
     align-items: center;
     height: 67px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nav-list {
     display: flex;
-    padding: 0px 85px;
+    /* padding: 0px 85px; */
+    padding: 0px 0px 0px 38px;
 }
 
 .nav-list ul li {
@@ -349,14 +351,14 @@ body {
 
 .trophy-content {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
 }
 
 .trophy-photo {
-    /* flex-basis: 39.3333333333%; */
-    /* width: 39.3333333333%; */
     width: 432px;
-    height: 310px;
+    height: 346px;
+    margin: 0px 140px 0px 0px;
 }
 
 .trophy-photo img {
@@ -393,17 +395,170 @@ body {
 .second-list {
     width: 253px;
     height: 123px;
+
 }
 
-/* .trophy{
-    position: relative;
-    position: absolute;
-
-} */
 .press-photo a img {
     width: 528px;
 }
 
 .press-photo a img:hover {
     opacity: 0.79;
+}
+
+/* Trust with confidence section (2)*/
+.trust-client {
+    margin-top: -19px;
+}
+
+.trust-client-container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    padding: 0px 21px 0px 21px
+}
+
+.trust-client-photo img {
+    height: 589px;
+    width: 600px;
+    padding: 30px 0px;
+}
+
+.trust-details-container {
+    width: 432px;
+    height: 656px;
+    margin: 0px 62px 0px 0px;
+    /* border: 2px solid red; */
+}
+
+.trust-details-container h2 {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 3;
+}
+
+.trust-details-item-1,
+.trust-details-item-2,
+.trust-details-item-3,
+.trust-details-item-4 {
+    padding: 12px 0px;
+}
+
+.trust-details-item-1 h3,
+.trust-details-item-2 h3,
+.trust-details-item-3 h3,
+.trust-details-item-4 h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.trust-details-item-1 p,
+.trust-details-item-2 p,
+.trust-details-item-3 p,
+.trust-details-item-4 p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.trust-details-item-4 span a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #387ed1;
+}
+
+.trust-details-item-4 span a:hover {
+    color: #000000;
+}
+
+.client-photo-2button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #387ed1;
+    font-weight: 500;
+    padding: 0px 12px;
+}
+
+.client-photo-2button a:hover {
+    color: #000000;
+}
+
+.client-photo-2button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Unbeatable pricing section */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+    margin-bottom: 40px;
+}
+
+.pricing-details-container {
+    display: flex;
+}
+
+.pricing-details-item-1 {
+    width: 432px;
+    height: 185px;
+    margin: 0px 55px 0px 0px;
+}
+.pricing-details-item-1 h2 {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 3;
+}
+.pricing-details-item-1 p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0px 0px 20px 0px;
+}
+.pricing-details-item-1 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #387ed1;
+    font-weight: 500;
+
+}
+.pricing-details-item-1 a:hover{
+color: #000000;
+}
+
+.pricing-details-item-2 {
+    width: 528px;
+    height: 190px;
+    margin-top: 18px;
+}
+
+.pricing-row-first-box,
+.pricing-row-second-box {
+    width: 253px;
+    height: 190px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 12px 0px 12px;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.pricing-row-first-box h1,
+.pricing-row-second-box h1{
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin: 0px 0px 52px 0px;
+}
+/* .pricing-row-first-box p,
+.pricing-row-second-box p{
+    line-height: 1.7;
+} */
+.pricing-row-second-box{
+    border-left: none;
+
 }
