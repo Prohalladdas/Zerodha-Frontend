@@ -506,25 +506,29 @@ body {
     height: 185px;
     margin: 0px 55px 0px 0px;
 }
+
 .pricing-details-item-1 h2 {
     font-size: 31px;
     font-weight: 500;
     line-height: 3;
 }
+
 .pricing-details-item-1 p {
     font-size: 16px;
     line-height: 1.8;
     margin: 0px 0px 20px 0px;
 }
-.pricing-details-item-1 a{
+
+.pricing-details-item-1 a {
     text-decoration: none;
     font-size: 16px;
     color: #387ed1;
     font-weight: 500;
 
 }
-.pricing-details-item-1 a:hover{
-color: #000000;
+
+.pricing-details-item-1 a:hover {
+    color: #000000;
 }
 
 .pricing-details-item-2 {
@@ -540,25 +544,199 @@ color: #000000;
     border: 1px solid #d9d9d9;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     text-align: center;
-    padding: 0px 12px 0px 12px;
+    padding: 22px 12px 0px 12px;
 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
+
 .pricing-row-first-box h1,
-.pricing-row-second-box h1{
+.pricing-row-second-box h1 {
     font-size: 2.7rem;
     font-weight: 500;
-    margin: 0px 0px 52px 0px;
+    margin: 0px 0px 40px 0px;
 }
-/* .pricing-row-first-box p,
-.pricing-row-second-box p{
+
+.pricing-row-first-box p {
     line-height: 1.7;
-} */
-.pricing-row-second-box{
+}
+
+.pricing-row-second-box {
     border-left: none;
 
+}
+
+/* Free and open market education section (4) */
+.market-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 435px;
+    width: 100%;
+}
+
+.education-photo {
+    margin: 0px 138px 0px 0px;
+}
+
+.education-photo a img {
+    height: 317px;
+    width: 432px;
+}
+
+.marketing-details-cont {
+    width: 528px;
+    height: 290px;
+}
+
+.marketing-details-cont h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 3;
+}
+
+.marketing-details-box-1 {
+    margin: 0px 0px 34px 0px;
+}
+
+.marketing-details-box-1 p,
+.marketing-details-box-2 p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0px 0px 19px 0px;
+}
+
+.marketing-details-box-1 a,
+.marketing-details-box-2 a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #387ed1;
+    font-weight: 500;
+}
+
+.marketing-details-box-1 :hover,
+.marketing-details-box-2 a:hover {
+    color: #000000;
+}
+
+/* Open account section */
+.open-account {
+    margin: 80px 0px 0px 0px;
+}
+
+.open-account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.open-account-container h1 {
+    font-size: 30px;
+    line-height: 3;
+    font-weight: 500;
+}
+
+.open-account-container a button {
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    height: 41px;
+    width: 179px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.open-account-container a {
+    text-decoration: none;
+    margin: auto;
+}
+
+.open-account-container a button:hover {
+    background-color: #000000;
+}
+
+/* footer */
+.footer {
+    background-color: #fafafb;
+    padding: 24px 0 5px 0;
+    border-top: 1px solid #eee;
+}
+
+.footer-first-container {
+    display: flex;
+    justify-content: center;
+}
+
+.first-footer-photo {
+    padding: 10px 0;
+}
+
+.first-footer-item-1 img {
+    max-height: 20px;
+    width: auto;
+}
+
+.first-footer-item-1 p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.8;
+    margin: 0px 0px 19px 0px;
+
+}
+
+.first-footer-logo a i {
+    font-size: 23px;
+    padding: 0px 12px 0px 0px;
+    color: #666;
+}
+
+.first-footer-logo a i:hover {
+    color: #387ed1;
+}
+
+.first-footer-item-1 {
+    height: 334px;
+    width: 242px;
+    /* border: 2px solid red; */
+    padding: 8px 0px;
+}
+
+.first-footer-item-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
+    height: 334px;
+    width: 242px;
+    /* border: 2px solid red; */
+    padding: 8px 12px;
+    margin: 0px 8px 0px 37px;
+}
+
+.first-footer-item-2 h3 {
+    font-weight: 500;
+    margin: 7px 0px 18px 0px;
+    color: #4b4b4b;
+}
+
+.first-footer-item-2 a {
+    text-decoration: none;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+}
+
+.first-footer-item-2 a:hover {
+    color: #387ed1;
 }
