@@ -799,3 +799,104 @@ body {
 .footer-end-link  ul li a:hover{
     color: #387ed1;
 }
+
+.nav-list-after{
+   display: none;
+}
+/* Responsive @media quiry start here */
+@media only screen and (min-width:970px) and (max-width:1050px) {
+    /* navber */
+    .nav-logo {
+        width: 262px;
+    }
+    .pricing-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 285px;
+        margin-bottom: 40px;
+    }
+    /* footer */
+    .footer-first-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+    .footer-end {
+        color: #9b9b9b;
+        margin-top: 40px;
+        width: 100%;
+        margin: auto;
+    }
+    .footer-end-link {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:970px) {
+    .pricing-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 285px;
+        margin-bottom: 40px;
+    }
+    /* footer */
+    .footer-first-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+    .footer-end {
+        color: #9b9b9b;
+        margin-top: 40px;
+        width: 100%;
+        margin: auto;
+    }
+    .footer-end-link {
+        width: 100%;
+        margin: auto;
+    }
+    /* second edit code */
+    /* navber */
+    .nav-list ul{
+        display: none;
+    }
+    .nav-logo {
+        width: 100%;
+    }
+    .first-item a p {
+        display: none;
+    }
+    .nav-list-after{
+        display: block;
+        /* padding: 0px 85px; */
+        padding: 0px 0px 0px 38px;
+    }
+    
+    .nav-list-after ul li{
+        display: flex;
+        list-style: none;
+    }
+    
+    .nav-list-after ul li a {
+        text-decoration: none;
+        padding: 0px 45px 0px 0px;
+    
+        color: #666;
+        font-size: .9rem;
+        transition: color .3s;
+        display: inline-block;
+        font-weight: 400;
+    }
+    
+    .nav-list-after ul li a:hover {
+        color: #387ed1;
+    }
+    .hamburger-click-container.iss-active {
+        top: 66px;
+        margin-left: -677px;
+        height: 532px;
+        background-color: #fff;
+    }
+}
