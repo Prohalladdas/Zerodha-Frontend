@@ -2113,6 +2113,21 @@ body {
 
 /* End responsive  */
 @media only screen and (max-width:500px) {
+    .nav-logo img {
+        height: 14px;
+        cursor: pointer;
+    }
+    .humbergar {
+        /* display: block; */
+        width: 52px;
+        height: 25px;
+    }
+    .humbergar .menu, .humbergar::after, .humbergar::before {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 50%;
+    }
     .pricing-container {
         display: flex;
         justify-content: center;
@@ -2941,12 +2956,15 @@ body {
     /* End responsive */
     .mein-contaimer {
         width: 100%;
-        margin-top: 22vh;
+        margin-top: 19vh;
     }
 
     .main-photo-box img {
         width: 100%;
         height: auto;
+    }
+    .main-photo-box {
+        padding: 0px 0px 50px 0px;
     }
 
     .home-content p {
