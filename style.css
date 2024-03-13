@@ -1339,8 +1339,10 @@ body {
     }
 
     .main-photo-box img {
-        width: 100%;
+        width: 110vh;
         height: auto;
+        display: flex;
+        margin: auto;
     }
 }
 
@@ -2171,8 +2173,10 @@ body {
     }
 
     .main-photo-box img {
-        width: 100%;
+        width: 77vh;
         height: auto;
+        display: flex;
+        margin: auto;
     }
 
     .mein-contaimer {
